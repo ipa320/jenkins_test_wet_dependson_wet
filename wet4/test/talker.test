@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+  <test test-name="sample_test" pkg="wet4" type="talker.py"/>
+
+</launch> 
