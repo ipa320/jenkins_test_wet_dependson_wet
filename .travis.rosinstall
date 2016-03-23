@@ -1,4 +1,4 @@
 - git:
     uri: 'https://github.com/ipa320/jenkins_test_wet.git'
-    local-name: travis_continuous_log
-    version: master
+    local-name: jenkins_test_wet
+    version: travis_continuous_log
