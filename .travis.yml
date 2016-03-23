@@ -16,7 +16,7 @@ env:
     - DEFAULT_ROSINSTALL="https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_dev/.travis.rosinstall"
 
 install:
-  - wget https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_devg/.travis.install.sh
+  - wget https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_dev/.travis.install.sh
   - bash .travis.install.sh
 
 script:
