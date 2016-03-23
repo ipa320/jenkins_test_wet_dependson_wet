@@ -24,10 +24,11 @@ install:
   - echo $ret
 
 script:
-  - wget https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_dev/.travis.script.sh
-  - bash .travis.script.sh &
-  - while true; do echo "SCRIPT IS RUNNING" && sleep 5; done&
-  - bash .travis.script.sh
-  - ret=$?
-  - kill %%
-  - echo $ret
+   - ls
+#  - wget https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_dev/.travis.script.sh
+#  - bash .travis.script.sh &
+#  - while true; do echo "SCRIPT IS RUNNING" && sleep 5; done&
+#  - bash .travis.script.sh
+#  - ret=$?
+#  - kill %%
+#  - echo $ret
