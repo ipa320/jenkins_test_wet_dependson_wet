@@ -17,16 +17,8 @@ env:
 
 install:
   - wget https://raw.githubusercontent.com/ipa320/care-o-bot/travis_continuous_log/.travis.install.sh
-  - while true; do echo "INSTALL IS RUNNING" && sleep 5; done&
   - bash .travis.install.sh
-  - ret=$?
-  - kill %%
-  - echo $ret
 
 script:
   - wget https://raw.githubusercontent.com/ipa320/care-o-bot/travis_continuous_log/.travis.script.sh
-  - while true; do echo "SCRIPT IS RUNNING" && sleep 5; done&
   - bash .travis.script.sh
-  - ret=$?
-  - kill %%
-  - echo $ret
